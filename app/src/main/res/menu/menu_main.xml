@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shagun.xpenses_kotlin.MainActivity">
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:orderInCategory="100"
+        android:title="New"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_export"
+        android:icon="@drawable/ic_assessment_white_24dp"
+        android:orderInCategory="100"
+        android:title="Save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save_white_24dp"
+        android:orderInCategory="100"
+        android:title="Export"
+        app:showAsAction="always" />
+</menu>

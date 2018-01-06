@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Xpenses</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="mode_array">
+        <item>Cash</item>
+        <item>Card</item>
+        <item>Cheque</item>
+        <item>Bank Transfer</item>
+    </string-array>
+</resources>

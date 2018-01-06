@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/comments"
+        android:inputType="textCapWords"
+        android:hint="Groceries"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp" />
+    <EditText
+        android:id="@+id/amount"
+        android:inputType="numberDecimal"
+        android:hint="5,000"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp" />
+    <Spinner
+        android:id="@+id/mode"
+        android:padding="10dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp" />
+    <Button
+        android:id="@+id/date"
+        android:backgroundTint="#B0BEC5"
+        android:textColor="#FAFAFA"
+        android:hint="3-OCT-97"
+        android:padding="10dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_width="1dp" />
+</TableRow>
